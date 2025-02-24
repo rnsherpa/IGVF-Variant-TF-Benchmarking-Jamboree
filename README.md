@@ -15,4 +15,21 @@ Resources and code for the IGVF Variant-TF Benchmarking jamboree. Hosted by the 
 - Synapse tutorials/docs
 	- [Installing API clients](https://help.synapse.org/docs/Installing-Synapse-API-Clients.1985249668.html)
 	- [Python docs](https://python-docs.synapse.org/)
+- [Ontology Lookup Service](https://www.ebi.ac.uk/ols4/)
 
+## Contribution guidlines
+If you are working on model predictions, please branch this repository and commit any code/documentation into the corresponding model folder. This includes any pre-processing, running models, formatting outputs, etc.
+
+Example:
+
+```
+git clone https://github.com/rnsherpa/IGVF-Variant-TF-Benchmarking-Jamboree.git
+
+git checkout -b SEMpl
+
+git commit -a -m "Code for running SEMpl on jamboree variants"
+
+git push -u origin SEMpl 
+```
+
+When satisfactory, submit pull request to merge branch into main.

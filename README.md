@@ -35,3 +35,13 @@ git push -u origin SEMpl
 ```
 
 When satisfactory, submit pull request to merge branch into main.
+
+## Prediction file upload
+
+File name standardization:
+- Celltype-agnostic: {model}_{TF name}_{dataset}_predictions.tsv
+- Celltype-specific: {model}_{TF name}_{biosample name}_{dataset}_predictions.tsv
+
+Synapse
+- Upload files to corresponding model folder in `prediction_outputs` folder on Synapse
+	- Note: Editing uploaded files on Synapse can be a pain so make sure things are formatted/named properly before upload

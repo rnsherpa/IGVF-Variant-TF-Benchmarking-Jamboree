@@ -27,6 +27,8 @@ git clone https://github.com/rnsherpa/IGVF-Variant-TF-Benchmarking-Jamboree.git
 
 git checkout -b SEMpl
 
+###Write code, workflows, docs, etc.###
+
 git commit -a -m "Code for running SEMpl on jamboree variants"
 
 git push -u origin SEMpl 

@@ -12,6 +12,6 @@ Resources and code for the IGVF Variant-TF Benchmarking jamboree. Hosted by the 
 	- [Variant lists](https://www.synapse.org/Synapse:syn64888527)
 	- [TF lists](https://www.synapse.org/Synapse:syn64891521)
 - Synapse tutorials/docs
-	- [](https://help.synapse.org/docs/Installing-Synapse-API-Clients.1985249668.html)
-	- [](https://python-docs.synapse.org/)
+	- [Installing API clients](https://help.synapse.org/docs/Installing-Synapse-API-Clients.1985249668.html)
+	- [Python docs](https://python-docs.synapse.org/)
 
